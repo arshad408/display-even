@@ -1,11 +1,11 @@
-# display-even
+import java. util.*;
 class even
 {
 int n;
-Scanner s=new Scanner(System.in);
-n=s.nextLine();
-public Static void main(String args[])
+public static void main(String args[])
 {
+Scanner s=new Scanner(System.in);
+n=s.nextInt();
 System.out.println("The even nums are");
 for (int i=1;i<=n;i++)
 {
